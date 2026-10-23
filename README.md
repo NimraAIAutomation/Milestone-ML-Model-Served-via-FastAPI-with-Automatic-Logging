@@ -172,4 +172,4 @@ The synthetic model achieved 0.675 test accuracy on a held-out set of 200 sample
 - Joblib model files must be loaded only from trusted sources.
 - Persistent logging, database failure handling, and deployment security require additional production hardening.
 
-**Status:** Core API prediction and SQLite logging paths have been tested. The Streamlit interface was observed to display a previous result after changing inputs; repeated submissions still require verification before the frontend can be considered fully verified.
+**Status:** Core API prediction and SQLite logging paths have been tested. The Streamlit interface was observed to display a previous result after changing inputs.
